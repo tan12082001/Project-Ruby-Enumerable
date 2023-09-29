@@ -1,5 +1,17 @@
-def sum(a, b)
-  puts "sum of #{a}, #{b} is #{a + b}"
-end
+module EnumerableModule
+  def all?
+    each { |item| return false unless yield(item) }
+    true
+  end
 
-sum(2, 5)
+  def any?
+    each { |item| return true if yield(item) }
+    false
+  end
+
+  def filter
+    result = []
+    each { |item| result.push(item) if yield(item) }
+    result
+  end
+end
