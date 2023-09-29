@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-The Project-Ruby-Enumerable uses basic operations of ruby like classes and modules to create a Enumerable which can implement tailored functionalities
-
 # 📖 Project-Ruby-Enumerable <a name="about-project"></a>
+
+The Project-Ruby-Enumerable uses basic operations of ruby like classes and modules to create a Enumerable which can implement tailored functionalities
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +42,7 @@ The Project-Ruby-Enumerable uses basic operations of ruby like classes and modul
 ### Key Features <a name="key-features"></a>
 
 - **Uses rubocop linter to improve the code structure**
-
+- **Can use `all?`, `any?`, `filter` methods using ruby modules and class**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +109,7 @@ To run tests after setting up the linters, run the following command:
 
 As this project progresses, I plan to implement the following features:
 
-- **Add more methods to test the operations**
+- **Add more Enumerable methods to the module like `min`, `max`, `sort`**
 
 Stay tuned for updates and enhancements to the vet clinic database!
 
