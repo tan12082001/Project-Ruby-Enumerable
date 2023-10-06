@@ -29,5 +29,8 @@ puts(list.any? { |e| e == 5 })
 # false
 
 # Test #filter
-puts(list.filter(&:even?))
+print(list.filter(&:even?))
 # [2, 4]
+# puts(list.filter(&:even?))
+# 2
+# 4
