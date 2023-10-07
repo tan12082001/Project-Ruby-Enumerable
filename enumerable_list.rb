@@ -7,7 +7,7 @@ class MyList
   end
 
   def each(&enum_methods)
-    @list.each(&enum_methods)
+    list.each(&enum_methods)
   end
 end
 
